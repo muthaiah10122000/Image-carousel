@@ -1,0 +1,50 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+.imagcontainer img {
+
+    height: 400px;
+    width: 600px;
+}
+
+.imagcontainer {
+
+    overflow: hidden;
+    height: 400px;
+    width: 600px;
+    background: url("./1.jpg");
+    background-size: contain;
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.arrows {
+    display: flex;
+    gap: 540px;
+    color: white;
+    position: relative;
+    top: -25%;
+}
+
+.arrows button {
+
+    background-color: white;
+    opacity: 80%;
+    color: black;
+    border: none;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
